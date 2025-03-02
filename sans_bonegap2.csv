@@ -2,6 +2,8 @@
 0,HeartTeleport,320,376,,,
 0,HeartMode,1,,,,
 0,TLPause,,,,,
+0,SansSlam,0,
+0.5,HeartMaxFallSpeed,0,
 0,SET,Total,0,,,
 0,:Begin,,,,,
 0,JMPNL,End,$Total,150,,
@@ -43,8 +45,6 @@
 0,MUL,XR,$X,$SpeedR,,
 0,ADD,XR,320,$XR,,
 0,MUL,SpeedR,$SpeedR,30,,
-0,BoneV,$XL,257,$HeightT,0,$SpeedL
-0,BoneV,$XL,$YB,$HeightB,0,$SpeedL
 0,BoneV,$XR,257,$HeightT,2,$SpeedR
 0,BoneV,$XR,$YB,$HeightB,2,$SpeedR
 0,MUL,Jump,$Choice,2,,

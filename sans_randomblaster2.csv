@@ -2,7 +2,7 @@
 0,HeartTeleport,320,304,,,,,,
 0,HeartMode,0,,,,,,,
 0,TLPause,,,,,,,,
-0.4,SET,Loop,12,,,,,,
+0.4,SET,Loop,20,,,,,,
 0,SUB,Loop,$Loop,1,,,,,
 0,RND,Ang,360,,,,,,
 0,COS,X,$Ang,,,,,,
@@ -25,6 +25,6 @@
 0,JMPNG,27,$EndY,440,,,,,
 0,SET,EndY,440,,,,,,
 0,ANGLE,Ang,$EndX,$EndY,$HeartX,$HeartY,,,
-0,GasterBlaster,1,$X,$Y,$EndX,$EndY,$Ang,0.66666,0.03333
-0.66666,JMPNZ,6,$Loop,,,,,,
+0,GasterBlaster,2.9,$X,$Y,$EndX,$EndY,$Ang,0.66666,0.03333
+0.3,JMPNZ,6,$Loop,,,,,,
 0,EndAttack,,,,,,,,

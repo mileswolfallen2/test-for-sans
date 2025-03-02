@@ -8,4 +8,7 @@
 0,BoneVRepeat,283,268,40,3,90,12,65
 0,BoneVRepeat,363,325,40,1,120,11,90
 0,BoneVRepeat,443,268,40,3,90,12,65
-7.3,EndAttack,,,,,,,
+7.2,BoneStab,0,360,0.3,3
+0,HeartMode,0,
+3,GasterBlaster,2,0,0,140,231,90,1,7,5
+7.5,EndAttack,,,,,,,

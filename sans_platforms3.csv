@@ -4,7 +4,7 @@
 0,TLPause,,,,,,,
 0,PlatformRepeat,513,346,121,2,120,5,220
 0,PlatformRepeat,-71,306,161,0,120,4,280
-0,SET,Loop,16,,,,,
+0,SET,Loop,250,,,,,
 0,JMPZ,22,$Loop,,,,,
 0,SUB,Loop,$Loop,1,,,,
 0,RND,Jump,3,,,,,
@@ -14,9 +14,9 @@
 0,JMPREL,4,,,,,,
 0,JMPREL,5,,,,,,
 0,BoneV,517,257,45,2,120,,
-0.5,JMPABS,8,,,,,,
+0.01,JMPABS,8,,,,,,
 0,BoneV,125,306,40,0,120,,
-0.5,JMPABS,8,,,,,,
+0.01,JMPABS,8,,,,,,
 0,BoneV,517,349,35,2,120,,
-0.5,JMPABS,8,,,,,,
+0.01,JMPABS,8,,,,,,
 0,EndAttack,,,,,,,

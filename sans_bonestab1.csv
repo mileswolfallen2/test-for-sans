@@ -3,7 +3,7 @@
 0,HeartMode,0,,,,
 0,TLPause,,,,,
 0,SET,Loop,9,,,
-0,JMPZ,26,$Loop,,,
+0,JMPZ,28,$Loop,,,
 0,SUB,Loop,$Loop,1,,
 0,RND,Direction,4,,,
 0,ADD,Jump,$Direction,1,,
@@ -21,6 +21,8 @@
 0,SansBody,HandUp,,,,
 0,JMPREL,1,,,,
 0.26666,SansSlam,$Direction,,,,
+0,GasterBlaster,0,0,0,323.5,0,90,0.4,0.05555
+0,GasterBlaster,0,0,0,0,300,0,0.4,0.05555
 0.2,BoneStab,$Direction,25,0.4,0.33333,
 0.6,JMPABS,6,,,,
 0,EndAttack,,,,,
